@@ -7,6 +7,7 @@ class Carrom
 	int noOfPlayers;
 	Carrom()
 	{
+		this(2,19,"board1",100,2);
 		System.out.println("This is a default constructor");
 	}
 	Carrom(int noOfStrikers)
