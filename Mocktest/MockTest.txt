@@ -1,0 +1,306 @@
+1. Java -- Java is a class based object oriented prohramming language and it supports portable and reusability of code.
+	Java is strongly typed programming language.
+	
+
+  Javac----javac is compiler it converts souce code into byte code.javac is generates a byte code.
+
+2.  JDK-----JDK is stands for Java Development Kit.
+		JDK includes development tools,JVM and set of libraries and other files.It develops applications written in Java.
+	
+	JRE---JRE is stands for Java Runtime Environment.It privides the environment for compilation and souce code can be converted to byte code.
+	
+	JVM---JVM stands for Java Virtual Machine.It executes a .class file or bytecode.
+		JVM search for the main method and it executes.JVM interpretes the code and then executes the Java code.
+
+3.	.java file---> .java file run on platform JRE.
+			.java file is converts source code to byte code.
+			.java file generates a bytecode.
+			.java file takes a high level code and then it converts to .class file
+		
+	
+	.class file--->.class file run on JVM.
+			.class file is converts bytecode to machine code it executes and gives a human-readable code.
+			.class file generates human-readable output to the programmers.
+			.class first search for the main method and then executes.
+
+4.Java IDE--->a.NetBeans 
+	      b.Eclipse
+	      c.Intelij
+
+5.Variables--->Variables are the container and stores values in that variables.
+		Syntax: Data_type var_name;
+		
+		2 Types of variables :
+
+		1.class level variables.
+			a.static variable-->Static variables are declared as static and it shares same values throughtout the class.
+				ex:static int age=5;
+			b.Non static variables-->Non static variables also called as Instance variables.Non static variables are uses the object creation.
+				It is declared inside a class but outside the method and constuctor.
+
+
+		2.Method level variables.
+			a.Local variables-->Local variables are declared inside the method and life of these variables within the method only.
+				ex:void myMethos()
+				   {
+					int name;
+				   }
+			b.Parameterised variables:These variables are declared inside parantheses of method.
+					Ex.void showInfo(String name)
+					    {
+						
+					    }
+
+
+6.OOPs means Java includes objects in the programming.
+	Object oriented programming in java includes several principles:
+	a.Polymorphism
+	b.Inheritance
+	c.Abstraction
+	d.Encapsulation
+
+7.Otput of program:It provides a Blank space
+
+
+8.Data Type:It provides a what type of data is holds in the value.
+	2 types of datatype in java
+		1.Primitive data type:These are particular words reserved in java and there are 8 primitive data types in java.
+
+				1.byte
+				2.short
+				3.int
+				4.long
+				5.float
+				6.double
+				7.boolean
+
+		Ex:int var=8;
+
+		2.Non Primitive data type:These are any class 
+			Ex:arrays 
+			
+
+
+9.Dot operator: .operator is use to access the method or variables.		
+Ex:
+
+class Bag
+{	
+	int name;
+	void setName(String name)
+	{
+		Bag.name=name;
+	}
+	public static void main(String[] bag)
+	{
+		setName("sahana");
+	}
+}
+
+10.Java features:
+	1.Portable
+	2.Reusability
+	3.Robust
+	4.Platform independent
+	5.Redundancy	
+
+11.Array:It is an collection of elements of the same type.
+	Array variables can be accessed through index.		
+
+Ex:
+class Person
+{
+	public static void main(String[] args)
+	{
+	int[] age={5,10,12,13,15,20}
+	for(int i=0;i<age.length;i++)
+	{
+		System.out.println("age:"+age[i]);
+	}
+	}
+}
+
+12.Class:class is template or blueprint.
+	Class includes data,data members and methods.
+	Class is a  non primitive data type or type or T
+
+	Ex:class Cable
+	   {
+	   }
+
+13.Keywords:Keywords are the predefined words or reserved words.
+		keywords:doble,int,float,char,boolean,static void assert,class,final finally,long,short,public,private,protected etc..
+		
+
+14.Constructor is same as class name.
+	Java creates own default constructor.
+	constructor includes no Of parameters inside the paranthesis.
+	It includes change in data types.
+
+	2 Types of constructor
+		a.No-argument constructor:It does not takes any arguments in the constructor.
+			Java creates a default constructor when we dont give constructor in the class.
+
+		b.Parameterised constructor:It takes number of arguments inside the paranthesis.
+
+
+15.main method is always static becuase it do not change during the execution of the program.
+	types of method
+		1.static method:static method is declared as static.static method only access static variables.
+			syntax:static method_name()
+				{
+				}
+			
+		2.Non- static method:This method access instance variables.
+			
+
+				syntax:access_modifier return-type method_name()
+					{
+					}
+
+16.Array program
+
+class Person
+{
+	public static void main(String[] person)
+	{
+	int age[]={12,3,2,45,6,7,6};
+	System.out.println("Length of an array:"+age.length);
+	
+	}
+
+}
+
+
+
+17.Method:Method is an collection of block of code that performs a specific task.
+	method can be executed when we invoke a method.
+	syntax:access_specifier non_access_specifier return_type method_name( ) throws class_name
+
+	Method overloading:Method can be overload when method takes no of parameters and change in data types or change in sequence
+
+Ex:
+
+class Bag
+{
+	int length;
+	int width;
+	String size;
+	void Bag()
+	{
+		System.out.println("This is default constructor");
+	}
+	void setBag(int length)
+	{
+		this.length=length;
+	}
+	void setBagWidth(int length,int width)
+	{
+		this.length=length;
+		this.width=width;
+	}
+	public static void main(String[] args)
+	{
+		Bag();
+		setBag(5);
+		setWidth(5,3);
+	}
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
