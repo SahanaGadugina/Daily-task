@@ -1,0 +1,4 @@
+enum Color
+{
+	SKYBLUE,ORANGE,WHITE;
+}
