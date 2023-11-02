@@ -7,6 +7,7 @@ class Bracelet
 	double price;
 	Bracelet()
 	{
+		this("blue",3,"round","baggit",500);
 		System.out.println("This is a default constructor");
 	}
 	Bracelet(String color)
