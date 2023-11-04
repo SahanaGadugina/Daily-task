@@ -73,11 +73,12 @@
 				5.float
 				6.double
 				7.boolean
+				8.char
 
 		Ex:int var=8;
 
-		2.Non Primitive data type:These are any class 
-			Ex:arrays 
+		2.Non Primitive data type:These are any classes
+			Ex:arrays ,Strings,classess
 			
 
 
@@ -133,6 +134,7 @@ class Person
 		
 
 14.Constructor is same as class name.
+	Constructor initializes the instance variables.
 	Java creates own default constructor.
 	constructor includes no Of parameters inside the paranthesis.
 	It includes change in data types.
@@ -144,7 +146,7 @@ class Person
 		b.Parameterised constructor:It takes number of arguments inside the paranthesis.
 
 
-15.main method is always static becuase it do not change during the execution of the program.
+15.main method is always static becuase JVM invokes without calling an instantiating the class.
 	types of method
 		1.static method:static method is declared as static.static method only access static variables.
 			syntax:static method_name()
