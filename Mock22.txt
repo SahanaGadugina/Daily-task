@@ -1,0 +1,41 @@
+
+1.
+class Person
+{
+	public static void main(String[] args) {
+	int num=5;
+	
+	if(num%2!=0)
+	{
+		System.out.println("Given number is prime");
+	}
+	else {
+		System.out.println("Given number is not prime");
+	}
+	}
+}
+
+2.
+class Cable
+{
+	public static void main(String[] args) {
+	static String name="sahana";
+	
+	for(int i=name.length-1;i>=0;i--)
+	{
+		System.out.println("Reverse of string:"+name[i]);
+	}
+	}
+}
+
+3.
+class Student
+{
+	public static void main(String[] args) {
+	static String name="XworkZOdC";
+	System.out.println("String lowrcase to uppercase:"+Student.toUpperCase(name));
+	System.out.println("String uppercase to lowercase:"+Student.toLowerCase(name));
+	}
+}
+
+	
